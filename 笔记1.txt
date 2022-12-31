@@ -68,7 +68,13 @@
 #         2、执行测试用例
 #         3、判断测试结果
 #         4、生成测试报告
-
+# addopts 配置参数 = -vs 输入更加详细的信息
+#                 -vs -m “smoke” 只执行冒烟用例
+# testpaths 改变用例的查找规则 = ./testcases  当前目录下
+# python_files = test_*.py    改变模块查找规则   有中文情况下要改为GBK
+# python_classes = Test*  改变类的查找规则
+# python_functions = test_*   改变函数的查找规则
+# maekers = smoke：冒烟测试   标记
 
 
 
