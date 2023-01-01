@@ -1,0 +1,122 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "万集接口自动化测试测试",
+    "children" : [ {
+      "name" : "模块名称：登录",
+      "children" : [ {
+        "name" : "获取鉴权码接口",
+        "children" : [ {
+          "name" : "用例名称：接口登录成功",
+          "uid" : "4859f076f580f454",
+          "parentUid" : "d9930fe120611c07f1f6853ae8f348b9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672578501680,
+            "stop" : 1672578501680,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d9930fe120611c07f1f6853ae8f348b9"
+      } ],
+      "uid" : "bcda44df518a5d70676de2baf2836277"
+    }, {
+      "name" : "模块名称：注册",
+      "children" : [ {
+        "name" : "注册接口",
+        "children" : [ {
+          "name" : "用例名称，验证接口注册成功",
+          "uid" : "3178f62817d0b9ce",
+          "parentUid" : "888ab24d5244421194ad7faa48ca047f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672578501681,
+            "stop" : 1672578501681,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "888ab24d5244421194ad7faa48ca047f"
+      } ],
+      "uid" : "b2a1abc6e55d9ee0a147f7630d4d158b"
+    }, {
+      "name" : "模块名称：登录1",
+      "children" : [ {
+        "name" : "test_login1",
+        "uid" : "4689d01908a8b2b2",
+        "parentUid" : "b433f0eff66e1b9e9d783b1290e8d3ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672578501682,
+          "stop" : 1672578501682,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b433f0eff66e1b9e9d783b1290e8d3ee"
+    }, {
+      "name" : "模块名称：登录2",
+      "children" : [ {
+        "name" : "test_login2",
+        "uid" : "18f28b9b8b4a5267",
+        "parentUid" : "b1e3db42363c85e1ae7cfba2e237adc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672578501683,
+          "stop" : 1672578501683,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1e3db42363c85e1ae7cfba2e237adc0"
+    }, {
+      "name" : "模块名称：门店",
+      "children" : [ {
+        "name" : "用例名称，门店接口注册成功",
+        "uid" : "b664b570c599ff67",
+        "parentUid" : "742ad338e58d00ffcb7e06ac29e46ac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672578501684,
+          "stop" : 1672578501684,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "742ad338e58d00ffcb7e06ac29e46ac7"
+    } ],
+    "uid" : "211297119bb63c3d0e4f86a89601b598"
+  } ]
+}

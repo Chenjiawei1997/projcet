@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.test_login",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "31d296571bf883d2",
+      "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672549461366,
+        "stop" : 1672549461366,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_store",
+      "uid" : "bb037b9ff6c2ff69",
+      "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672549461367,
+        "stop" : 1672549461367,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login1",
+      "uid" : "8ad4cb2631f53373",
+      "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672549461368,
+        "stop" : 1672549461368,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login2",
+      "uid" : "117790a1c5212054",
+      "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672549461369,
+        "stop" : 1672549461369,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.test_login"
+  } ]
+}

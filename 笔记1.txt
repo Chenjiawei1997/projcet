@@ -76,10 +76,72 @@
 # python_functions = test_*   改变函数的查找规则
 # maekers = smoke：冒烟测试   标记
 
-
-
-
-
+# -vs 输出详细的信息和调试信息
+# -n=2 多线程
+# --reruns = 2 失败用例重跑
+# -x 失败一次就终止用例的执行
+# --maxfail = 2 失败两次就终止用例的执行
+# --html=./reports/report.html 生成html报告
+# -m“smoke or che” 执行指定标记的用例
+# 夹具的优先级
+# 1/ 先执行当前目录下的conftest.py d的fixtrue
+# 2/ 读取pytest.ini 配置，找到测试用例
+# 3/ 执行测试用例的目录下的conftest.py的fixtrue
+# 4/ 执行测试用例--》用例模块的conftest.py的fixtrue
+# 5/ setup_calss
+# 6/ 然后按照当前目录，测试用例目录，测试用例下的模块目录的函数级别
+# 7、 setup
+# 8、执行测试用例
+#  环境变量
+#在pytest.ini 添加一个环境
+# -----  断  言------
+#使用python assert
+#pytest 结合allure-pytest 插件生成allure测试报告
+#--alluredir=./temps --clean-alluredir 每次都清除
+#企业logo定制
+#找到包的位置 引用custom-logo-plugin这个包在allure.yml 文件中  增加自定义插件
+#@allure.epic("万集接口自动化测试测试")
+#@allure.story("获取鉴权码接口")
+#@allure.feature("模块名称：登录")
+#（1优先级
+# 致命（BLOCKER）、严重（CRITICAL）、一般（NORMAL）、提示（MINOR）、轻微（TRIVIAL）
+# @allure.severity(allure.severity_level.BLOCKER)
+#
+#六：脱使用allure报告脱离pycharm容器访问
+#局域网：allure open ./Reports
+#Yaml详解
+#yaml是一种数据类型，.yaml或者.yml
+#作用：配置文件：环境变量，数据库信息，用户名密码，日志格式等。
+#测试用例：web、api、app
+#语法规则：
+#1、区分大小写
+#2、通过缩进表示层级关系，一般用空格，不要用tab键
+#3、通过# 注释
+#4、字符串可以不用写引导，也可以写当引号或者双引号。区别单引号和双引号区别在于：单引号会对特殊字符进行转义
+# 数据类型：
+#1、标量
+#     整数
+#     浮点数
+#     字符串
+#
+#2、对象 (字典dict)
+#3、数组（列表list，通过列表加一个横杠）
+#*******变量的引用：**********
+#  & 表示建立一个锚点，*用来引用锚点，<<表示合并
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
 
 

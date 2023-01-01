@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 01 21:08:21 CST 2023","Sun Jan 01 21:08:21 CST 2023","0","testcases.test_login","test_login","TestAPI","","","用例名称，验证接口注册成功",""
+"passed","Sun Jan 01 21:08:21 CST 2023","Sun Jan 01 21:08:21 CST 2023","0","testcases.test_login","test_login","TestAPI","","","用例名称：接口登录成功","登录接口欧"
+"passed","Sun Jan 01 21:08:21 CST 2023","Sun Jan 01 21:08:21 CST 2023","0","testcases.test_login","test_login","TestAPI","","","test_login1",""
+"passed","Sun Jan 01 21:08:21 CST 2023","Sun Jan 01 21:08:21 CST 2023","0","testcases.test_login","test_login","TestAPI","","","test_login2",""
+"passed","Sun Jan 01 21:08:21 CST 2023","Sun Jan 01 21:08:21 CST 2023","0","testcases.test_store","test_store","Test","","","用例名称，门店接口注册成功","门店列表"

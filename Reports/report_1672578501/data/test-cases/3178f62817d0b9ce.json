@@ -1,0 +1,99 @@
+{
+  "uid" : "3178f62817d0b9ce",
+  "name" : "用例名称，验证接口注册成功",
+  "fullName" : "testcases.test_login.test_login.TestAPI#test_store",
+  "historyId" : "e7fec7ed8fa9ad865825c2ed1b821f88",
+  "time" : {
+    "start" : 1672578501681,
+    "stop" : 1672578501681,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1672578501679,
+      "stop" : 1672578501679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1672578501679,
+      "stop" : 1672578501679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "万集接口自动化测试测试"
+  }, {
+    "name" : "story",
+    "value" : "注册接口"
+  }, {
+    "name" : "feature",
+    "value" : "模块名称：注册"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5ALEO36"
+  }, {
+    "name" : "thread",
+    "value" : "10876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3178f62817d0b9ce.json",
+  "parameterValues" : [ ]
+}

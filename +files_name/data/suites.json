@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestAPI",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "31d296571bf883d2",
+          "parentUid" : "e3cf0a9d5315c169a1106f4eca4c70b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672549461366,
+            "stop" : 1672549461366,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_store",
+          "uid" : "bb037b9ff6c2ff69",
+          "parentUid" : "e3cf0a9d5315c169a1106f4eca4c70b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672549461367,
+            "stop" : 1672549461367,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login1",
+          "uid" : "8ad4cb2631f53373",
+          "parentUid" : "e3cf0a9d5315c169a1106f4eca4c70b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672549461368,
+            "stop" : 1672549461368,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login2",
+          "uid" : "117790a1c5212054",
+          "parentUid" : "e3cf0a9d5315c169a1106f4eca4c70b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672549461369,
+            "stop" : 1672549461369,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e3cf0a9d5315c169a1106f4eca4c70b4"
+      } ],
+      "uid" : "ab70c067fdfc04844e6dad4d931d9fae"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}
