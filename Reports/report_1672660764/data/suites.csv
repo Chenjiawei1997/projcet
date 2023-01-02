@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 02 19:59:24 CST 2023","Mon Jan 02 19:59:24 CST 2023","108","testcases.test_login","test_login","TestAPI","","","输入未注册的账号密码登录","输入未注册的账号密码登录"
+"passed","Mon Jan 02 19:59:24 CST 2023","Mon Jan 02 19:59:24 CST 2023","70","testcases.test_login","test_login","TestAPI","","","输入正确账号未输入密码登录","输入正确账号未输入密码登录"
+"passed","Mon Jan 02 19:59:23 CST 2023","Mon Jan 02 19:59:24 CST 2023","279","testcases.test_login","test_login","TestAPI","","","使用正确的账号密码登录","使用正确的账号密码登录"
+"passed","Mon Jan 02 19:59:24 CST 2023","Mon Jan 02 19:59:24 CST 2023","163","testcases.test_login","test_login","TestAPI","","","使用错误的账号输入正确密码登录","使用错误的账号输入正确密码登录"
+"passed","Mon Jan 02 19:59:24 CST 2023","Mon Jan 02 19:59:24 CST 2023","76","testcases.test_login","test_login","TestAPI","","","未输入账号输入正确密码登录","未输入账号输入正确密码登录"
+"passed","Mon Jan 02 19:59:24 CST 2023","Mon Jan 02 19:59:24 CST 2023","145","testcases.test_login","test_login","TestAPI","","","使用正确的账号错误密码登录","使用正确的账号错误密码登录"

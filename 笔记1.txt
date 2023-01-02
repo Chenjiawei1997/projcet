@@ -128,26 +128,44 @@
 #3、数组（列表list，通过列表加一个横杠）
 #*******变量的引用：**********
 #  & 表示建立一个锚点，*用来引用锚点，<<表示合并
+#yaml+pramaztrize 建立数据驱动
+#***********重点******
+#post请求中data传参和json传参
+#文件上传：Content-Type：application/json     （files）
+#表单传值：Content-Type：application/x-www-form-urlencoded    （data）纯键值对的dict，不能是嵌套的dict
+#文本ram传值：
+#   json：content-type：application/json          （json）  出键值对的dict，也可以是嵌套的dict
+#   text：content-type：text/plain（data）
+#   javascript:application/javascript（data）
+#   xml:application/xml（data）
+#   html:text/html（data）
+#二进制提交：
+#   binary：content-type：application/json（data）
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# **************全面认识requets的返回对象**************
+# res.text （返回字符串数据）
+# res.content (返回二进制数据)
+# res.json()  （返回字典数据）
+# res.status_code  (返回响应码)
+# res.reson  （返回响应码）
+# res.cookie  返回cookie 信息
+# res.encoding  返回编码格式
+# res.headers 返回响应头
+# res.request.xxx  返回请求信息
 
-
-
-
-
-
+# ********************接口自动化框架统一封装********************
+# 1、异常处理
+# 2、日志处理
+# 3、如果要实现垮py文件共享session，必须封装
+#********************************************************************************
+# class RequestUtil:
+#     sess = requests.session()
+#
+#     # 统一封装请求路径
+#     def send_all_request(self, method, url, **kwargs):
+#         res = RequestUtil.sess.request(method, url, **kwargs)
+#         return res
+#*********************************************************************************
 
 
 

@@ -1,0 +1,119 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "万集接口自动化测试",
+    "children" : [ {
+      "name" : "模块名称：登录",
+      "children" : [ {
+        "name" : "获取鉴权码接口",
+        "children" : [ {
+          "name" : "使用正确的账号密码登录",
+          "uid" : "f5318793780b0fd9",
+          "parentUid" : "1a47a1748bb6802dec8b3203e39ec03f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672660763986,
+            "stop" : 1672660764265,
+            "duration" : 279
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "使用正确的账号错误密码登录",
+          "uid" : "8d52125828113c95",
+          "parentUid" : "1a47a1748bb6802dec8b3203e39ec03f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672660764267,
+            "stop" : 1672660764412,
+            "duration" : 145
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "使用错误的账号输入正确密码登录",
+          "uid" : "479ffd3714206b49",
+          "parentUid" : "1a47a1748bb6802dec8b3203e39ec03f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672660764413,
+            "stop" : 1672660764576,
+            "duration" : 163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "未输入账号输入正确密码登录",
+          "uid" : "a3dacd7bccde85bc",
+          "parentUid" : "1a47a1748bb6802dec8b3203e39ec03f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672660764578,
+            "stop" : 1672660764654,
+            "duration" : 76
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入正确账号未输入密码登录",
+          "uid" : "2217d8833a1fd977",
+          "parentUid" : "1a47a1748bb6802dec8b3203e39ec03f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672660764656,
+            "stop" : 1672660764726,
+            "duration" : 70
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入未注册的账号密码登录",
+          "uid" : "a2d1fa80c23ae815",
+          "parentUid" : "1a47a1748bb6802dec8b3203e39ec03f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1672660764729,
+            "stop" : 1672660764837,
+            "duration" : 108
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1a47a1748bb6802dec8b3203e39ec03f"
+      } ],
+      "uid" : "96ee940f152f55238418fc420c07cd22"
+    } ],
+    "uid" : "7ae331e309af586d3a2aceecd04e37a0"
+  } ]
+}
