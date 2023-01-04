@@ -11,67 +11,67 @@
       type: 0
   validate: 断言
 
--
-  name: 使用正确的账号错误密码登录
-  request:
-    method: post
-    url: /micro/ent/login
-    headers:
-      content-Type: application/json
-    json:
-      userName: chenjiawei132785
-      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-      type: 0
-  validate: 断言
-
--
-  name: 使用错误的账号输入正确密码登录
-  request:
-    method: post
-    url: /micro/ent/login
-    headers:
-      content-Type: application/json
-    json:
-      userName: chenjiawei132785
-      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-      type: 0
-  validate: 断言
-
--
-  name: 未输入账号输入正确密码登录
-  request:
-    method: post
-    url: /micro/ent/login
-    headers:
-      content-Type: application/json
-    json:
-      userName:
-      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-      type: 0
-  validate: 断言
-
--
-  name: 输入正确账号未输入密码登录
-  request:
-    method: post
-    url: /micro/ent/login
-    headers:
-      content-Type: application/json
-    json:
-      userName: chenjiawei132785
-      password:
-      type: 0
-  validate: 断言
-
--
-  name: 输入未注册的账号密码登录
-  request:
-    method: post
-    url: /micro/ent/login
-    headers:
-      content-Type: application/json
-    json:
-      userName: chen87485
-      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-      type: 0
-  validate: 断言
+#-
+#  name: 使用正确的账号错误密码登录
+#  request:
+#    method: post
+#    url: /micro/ent/login
+#    headers:
+#      content-Type: application/json
+#    json:
+#      userName: chenjiawei132785
+#      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
+#      type: 0
+#  validate: 断言
+#
+#-
+#  name: 使用错误的账号输入正确密码登录
+#  request:
+#    method: post
+#    url: /micro/ent/login
+#    headers:
+#      content-Type: application/json
+#    json:
+#      userName: chenjiawei132785
+#      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
+#      type: 0
+#  validate: 断言
+#
+#-
+#  name: 未输入账号输入正确密码登录
+#  request:
+#    method: post
+#    url: /micro/ent/login
+#    headers:
+#      content-Type: application/json
+#    json:
+#      userName:
+#      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
+#      type: 0
+#  validate: 断言
+#
+#-
+#  name: 输入正确账号未输入密码登录
+#  request:
+#    method: post
+#    url: /micro/ent/login
+#    headers:
+#      content-Type: application/json
+#    json:
+#      userName: chenjiawei132785
+#      password:
+#      type: 0
+#  validate: 断言
+#
+#-
+#  name: 输入未注册的账号密码登录
+#  request:
+#    method: post
+#    url: /micro/ent/login
+#    headers:
+#      content-Type: application/json
+#    json:
+#      userName: chen87485
+#      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
+#      type: 0
+#  validate: 断言

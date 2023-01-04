@@ -2,11 +2,11 @@
   name: 获得当前所有门店列表
   request:
     method: get
-    url: /micro/ent/login
+    url: /micro/ent/storeManagement/list?keyword=&province=&city=&area=&status=&storeType=&sortKey=&sortLifting=&pageSize=10&pageNumber=1
     headers:
       content-Type: application/json
-    json:
-      userName: chenjiawei132785
-      password: IKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-      type: 0
+      Authorization:  Bearer
+    params:
+      pageSize: 10
+      pageNumber: 1
   validate: 断言

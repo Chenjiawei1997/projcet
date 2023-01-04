@@ -1,0 +1,11 @@
+-
+  name: 导入门店
+  request:
+    method: post
+    url: /micro/ent/storeManagement/batchImportStore
+    headers:
+     Content-Type: application/json
+     Authorization:  Bearer
+    files:
+     binary: "导入门店模板 (4).xlsx"
+  validate: 断言
