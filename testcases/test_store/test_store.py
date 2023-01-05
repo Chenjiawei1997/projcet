@@ -11,30 +11,20 @@ from commons.yaml_util import read_yaml, read_testcase_yaml
 concurrent_path = str(Path(__file__).parent)
 
 
-# @allure.epic("万集接口自动化测试测试")
-# class TestStore:
-    # @allure.story("获取所有门店接口")
-    # @allure.feature("模块名称：店铺")
-    # # @allure.title("用例名称：接口登录成功")
-    # @allure.description("门店")
-    # @allure.severity(allure.severity_level.BLOCKER)
-    # # @pytest.mark.smoke
-    # @pytest.mark.parametrize("caseinfo", read_testcase_yaml(concurrent_path + "\\test_store.yaml"))
-    # def test_store(self, base_url, caseinfo):
-    #     name = caseinfo['name']
-    #     allure.dynamic.description(name)
-    #     allure.dynamic.title(name)
-    #     method = caseinfo['request']['method']
-    #     url = caseinfo['request']['url']
-    #     all_url = base_url + url
-    #     headers = {
-    #         "content - Type": "application/json",
-    #         "Authorization": "Bearer " + read_yaml("access_token")
-    #     }
-    #     params = caseinfo['request']['params']
-    #     # validate = caseinfo['validate']
-    #     res = RequestUtil.sess.request(method=method, url=all_url, headers=headers, params=params)
-    #     print(res.json())
+@allure.epic("万集接口自动化测试测试")
+class TestStore:
+    @allure.story("获取所有门店接口")
+    @allure.feature("模块名称：店铺")
+    # @allure.title("用例名称：接口登录成功")
+    @allure.description("门店")
+    @allure.severity(allure.severity_level.BLOCKER)
+    # @pytest.mark.smoke
+    @pytest.mark.parametrize("caseinfo", read_testcase_yaml(concurrent_path + "\\test_store.yaml"))
+    def test_store(self, base_url, caseinfo):
+        RequestUtil().standard_yaml_case(caseinfo, base_url)
+
+
+
 
     # # 增加门店
     # def test_add_a_store(self, caseinfo):

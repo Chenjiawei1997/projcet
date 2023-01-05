@@ -20,28 +20,9 @@ class TestAPI:
     # @allure.description("登录")
     # @allure.severity(allure.severity_level.BLOCKER)
     # # @pytest.mark.smoke
-    @pytest.mark.parametrize("caseinfo", read_testcase_yaml(concurrent_path+"\\test_login.yaml"))
-    def test_login(self, base_url, caseinfo):
-        RequestUtil().standard_yaml_case(base_url, caseinfo)
-        # name = caseinfo['name']
-        # allure.dynamic.description(name)
-        # allure.dynamic.title(name)
-        # method = caseinfo['request']['method']
-        # url = caseinfo['request']['url']
-        # all_url = base_url + url
-        # headers = caseinfo['request']['headers']
-        # json = caseinfo['request']['json']
-        # # validate = caseinfo['validate']
-        # res = RequestUtil.sess.request(method=method, url=all_url, json=json, headers=headers, params=None)
-        # result = res.json()
-        # data = {"access_token": result["data"]["access_token"]}
-        # username = {"username": result["data"]["userInfo"]["username"]}
-        # # cookies = {"cookies": res.cookies}
-        # # print(res.cookies)
-        # write_yaml("extract.yaml", username)
-        # write_yaml("extract.yaml", data)
-        # # write_yaml("extract.yaml", cookies)
-        # print(res.json())
+    @pytest.mark.parametrize("caseinfo", read_testcase_yaml(concurrent_path + "\\test_login.yaml"))
+    def test_login(self, caseinfo, base_url):
+        RequestUtil().standard_yaml_case(caseinfo, base_url)
 
 
     #
