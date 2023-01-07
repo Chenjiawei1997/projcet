@@ -1,0 +1,138 @@
+{
+  "uid" : "c23001b1f0b588cc",
+  "name" : "验证未注册的账号密码登录测试用例",
+  "fullName" : "testcases.test_all_case.TestALLAPI#test_test_login",
+  "historyId" : "7008a1d41f5dabd091e9707a21490a34",
+  "time" : {
+    "start" : 1673101943101,
+    "stop" : 1673101943200,
+    "duration" : 99
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: contains断言失败: 返回结果中不包含dsf",
+  "statusTrace" : "self = <testcases.test_all_case.TestALLAPI object at 0x00000281444FF130>\ncaseinfo = {'extract': {'access_token': '\"access_token\":\"(.*?)\"', 'code': '$.code', 'username': '$.data.userInfo.username'}, 'fea...nGIqK7IST13RbyHrBoI9I62o/Uc=', 'type': 0, 'userName': 'chen132785'}, 'method': 'post', 'url': '/micro/ent/login'}, ...}\nbase_url = 'http://wanjidev.wandianzhang.com'\n\n    @pytest.mark.parametrize(\"caseinfo\", read_testcase(yaml_path))\n    # @pytest.mark.run(order=1)\n    def test_func(self, caseinfo, base_url):\n        allure.dynamic.feature(caseinfo['feature'])\n        allure.dynamic.story(caseinfo['story'])\n        allure.dynamic.title(caseinfo['title'])\n>       RequestUtil().standard_yaml_case(caseinfo, base_url)\n\ntestcases\\test_all_case.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommons\\request_util.py:70: in standard_yaml_case\n    assert_result(caseinfo['validate'], res)\ncommons\\assert_util.py:17: in assert_result\n    contains_assert(value, res.json())\ncommons\\assert_util.py:57: in contains_assert\n    raise_assert_error(\"contains断言失败: 返回结果中不包含\" + str(yq_value) + \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmsg = 'contains断言失败: 返回结果中不包含dsf'\n\n    def raise_assert_error(msg):\n        logger.error(msg+\"\")\n        logger.info(\"----------测试用例*异常*结束----------\\n\")\n>       raise AssertionError(msg)\nE       AssertionError: contains断言失败: 返回结果中不包含dsf\n\ncommons\\assert_util.py:29: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract_yaml",
+    "time" : {
+      "start" : 1673101942775,
+      "stop" : 1673101942775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1673101942775,
+      "stop" : 1673101942775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1673101942775,
+      "stop" : 1673101942775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: contains断言失败: 返回结果中不包含dsf",
+    "statusTrace" : "self = <testcases.test_all_case.TestALLAPI object at 0x00000281444FF130>\ncaseinfo = {'extract': {'access_token': '\"access_token\":\"(.*?)\"', 'code': '$.code', 'username': '$.data.userInfo.username'}, 'fea...nGIqK7IST13RbyHrBoI9I62o/Uc=', 'type': 0, 'userName': 'chen132785'}, 'method': 'post', 'url': '/micro/ent/login'}, ...}\nbase_url = 'http://wanjidev.wandianzhang.com'\n\n    @pytest.mark.parametrize(\"caseinfo\", read_testcase(yaml_path))\n    # @pytest.mark.run(order=1)\n    def test_func(self, caseinfo, base_url):\n        allure.dynamic.feature(caseinfo['feature'])\n        allure.dynamic.story(caseinfo['story'])\n        allure.dynamic.title(caseinfo['title'])\n>       RequestUtil().standard_yaml_case(caseinfo, base_url)\n\ntestcases\\test_all_case.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommons\\request_util.py:70: in standard_yaml_case\n    assert_result(caseinfo['validate'], res)\ncommons\\assert_util.py:17: in assert_result\n    contains_assert(value, res.json())\ncommons\\assert_util.py:57: in contains_assert\n    raise_assert_error(\"contains断言失败: 返回结果中不包含\" + str(yq_value) + \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmsg = 'contains断言失败: 返回结果中不包含dsf'\n\n    def raise_assert_error(msg):\n        logger.error(msg+\"\")\n        logger.info(\"----------测试用例*异常*结束----------\\n\")\n>       raise AssertionError(msg)\nE       AssertionError: contains断言失败: 返回结果中不包含dsf\n\ncommons\\assert_util.py:29: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a655b0dd3207c39",
+      "name" : "log",
+      "source" : "3a655b0dd3207c39.txt",
+      "type" : "text/plain",
+      "size" : 1388
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：万集接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestALLAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5ALEO36"
+  }, {
+    "name" : "thread",
+    "value" : "13628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c23001b1f0b588cc.json",
+  "parameterValues" : [ ]
+}

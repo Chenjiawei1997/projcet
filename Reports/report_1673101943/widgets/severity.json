@@ -1,0 +1,41 @@
+[ {
+  "uid" : "80c7bb9e044231b1",
+  "name" : "验证登录成功测试用例",
+  "time" : {
+    "start" : 1673101942776,
+    "stop" : 1673101943099,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "487a35fc6e7c0d09",
+  "name" : "测试导入门店列表.xls接口",
+  "time" : {
+    "start" : 1673101943240,
+    "stop" : 1673101943247,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f847c0fad699c890",
+  "name" : "测试获取所有门店列表接口",
+  "time" : {
+    "start" : 1673101943253,
+    "stop" : 1673101943408,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c23001b1f0b588cc",
+  "name" : "验证未注册的账号密码登录测试用例",
+  "time" : {
+    "start" : 1673101943101,
+    "stop" : 1673101943200,
+    "duration" : 99
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

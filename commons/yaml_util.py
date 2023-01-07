@@ -29,8 +29,3 @@ def clear_yaml():
         f.truncate()
 
 
-# 读取测试用例方法
-def read_testcase_yaml(yaml_path):
-    with open(yaml_path, encoding='utf-8', mode='rt') as f:
-        value = yaml.load(f, yaml.FullLoader)
-        return value

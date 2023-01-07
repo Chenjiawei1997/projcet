@@ -9,5 +9,5 @@ class DebugTalk:
     def read_yaml(self, key):
         with open(os.getcwd() + "/extract.yaml", encoding='utf-8', mode='r') as f:
             value = yaml.load(f, yaml.FullLoader)
-            print("value[key]:%s" % value[key])
+            # print("value[key]:%s" % value[key])
             return value[key]

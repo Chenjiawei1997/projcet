@@ -1,0 +1,55 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: contains断言失败: 返回结果中不包含dsf",
+      "children" : [ {
+        "name" : "验证未注册的账号密码登录测试用例",
+        "uid" : "c23001b1f0b588cc",
+        "parentUid" : "b6bdcd3c648b790464f2826284dc8d93",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673101943101,
+          "stop" : 1673101943200,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6bdcd3c648b790464f2826284dc8d93"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: '导入门店模板 (4).xlsx'",
+      "children" : [ {
+        "name" : "测试导入门店列表.xls接口",
+        "uid" : "487a35fc6e7c0d09",
+        "parentUid" : "98e13d0cd92238be4f748fde24b22e95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1673101943240,
+          "stop" : 1673101943247,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98e13d0cd92238be4f748fde24b22e95"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
