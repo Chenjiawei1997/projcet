@@ -1,0 +1,160 @@
+{
+  "ff93cb5e5a9be6be271fb1efc194630f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4ca87168f970cb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673154206080,
+        "stop" : 1673154206408,
+        "duration" : 328
+      }
+    } ]
+  },
+  "58eb48a7cc99584d39c534374242ebd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17847a13d0ce21cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673154206944,
+        "stop" : 1673154207098,
+        "duration" : 154
+      }
+    } ]
+  },
+  "7008a1d41f5dabd091e9707a21490a34" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6701d046f5337b85",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673154206410,
+        "stop" : 1673154206517,
+        "duration" : 107
+      }
+    } ]
+  },
+  "c7984b4801add1235a94af41e12e2e23" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e4224ef718f46a0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673154206688,
+        "stop" : 1673154206783,
+        "duration" : 95
+      }
+    } ]
+  },
+  "5581961b01782cdb476df8373c96ae43" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78fd7d0eea2a8169",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673154206567,
+        "stop" : 1673154206622,
+        "duration" : 55
+      }
+    } ]
+  },
+  "d744ce7277dc335fea5129f01b03cf8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff4d9d0dfdcfc58b",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '导入门店模板 (4).xlsx'",
+      "time" : {
+        "start" : 1673154206932,
+        "stop" : 1673154206939,
+        "duration" : 7
+      }
+    } ]
+  },
+  "a3cc8383aa925684c8551d3ee98b3f6e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b390333e7da9467",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673154206790,
+        "stop" : 1673154206925,
+        "duration" : 135
+      }
+    } ]
+  },
+  "5f86f1ee1e626d36a249cef360e41d57" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db9347d97f9afca6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673154206628,
+        "stop" : 1673154206682,
+        "duration" : 54
+      }
+    } ]
+  }
+}

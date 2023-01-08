@@ -1,0 +1,138 @@
+{
+  "uid" : "78fd7d0eea2a8169",
+  "name" : "验证输入用户名不能为空测试用例",
+  "fullName" : "testcases.test_all_case.TestALLAPI#test_test_login",
+  "historyId" : "5581961b01782cdb476df8373c96ae43",
+  "time" : {
+    "start" : 1673154206567,
+    "stop" : 1673154206622,
+    "duration" : 55
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: databases断言失败: 返回结果中没有:username",
+  "statusTrace" : "self = <testcases.test_all_case.TestALLAPI object at 0x000001E60B49E6E0>\ncaseinfo = {'extract': {'access_token': '\"access_token\":\"(.*?)\"', 'code': '$.code', 'username': '$.data.userInfo.username'}, 'fea...SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=', 'type': 0, 'userName': ''}, 'method': 'post', 'url': '/micro/ent/login'}, ...}\nbase_url = 'http://wanjidev.wandianzhang.com'\n\n    @pytest.mark.parametrize(\"caseinfo\", read_testcase(yaml_path))\n    # @pytest.mark.run(order=1)\n    def test_func(self, caseinfo, base_url):\n        allure.dynamic.feature(caseinfo['feature'])\n        allure.dynamic.story(caseinfo['story'])\n        allure.dynamic.title(caseinfo['title'])\n>       RequestUtil().standard_yaml_case(caseinfo, base_url)\n\ntestcases\\test_all_case.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommons\\request_util.py:70: in standard_yaml_case\n    assert_result(caseinfo['validate'], res)\ncommons\\assert_util.py:20: in assert_result\n    db_assert(value, res.json())\ncommons\\assert_util.py:89: in db_assert\n    raise_assert_error(\"databases断言失败: 返回结果中没有:\" + str(key) + \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmsg = 'databases断言失败: 返回结果中没有:username'\n\n    def raise_assert_error(msg):\n        logger.error(msg + \"\")\n        logger.info(\"----------测试用例*异常*结束----------\\n\")\n>       raise AssertionError(msg)\nE       AssertionError: databases断言失败: 返回结果中没有:username\n\ncommons\\assert_util.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1673154206079,
+      "stop" : 1673154206079,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1673154206079,
+      "stop" : 1673154206079,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "clear_extract_yaml",
+    "time" : {
+      "start" : 1673154206079,
+      "stop" : 1673154206079,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: databases断言失败: 返回结果中没有:username",
+    "statusTrace" : "self = <testcases.test_all_case.TestALLAPI object at 0x000001E60B49E6E0>\ncaseinfo = {'extract': {'access_token': '\"access_token\":\"(.*?)\"', 'code': '$.code', 'username': '$.data.userInfo.username'}, 'fea...SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=', 'type': 0, 'userName': ''}, 'method': 'post', 'url': '/micro/ent/login'}, ...}\nbase_url = 'http://wanjidev.wandianzhang.com'\n\n    @pytest.mark.parametrize(\"caseinfo\", read_testcase(yaml_path))\n    # @pytest.mark.run(order=1)\n    def test_func(self, caseinfo, base_url):\n        allure.dynamic.feature(caseinfo['feature'])\n        allure.dynamic.story(caseinfo['story'])\n        allure.dynamic.title(caseinfo['title'])\n>       RequestUtil().standard_yaml_case(caseinfo, base_url)\n\ntestcases\\test_all_case.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommons\\request_util.py:70: in standard_yaml_case\n    assert_result(caseinfo['validate'], res)\ncommons\\assert_util.py:20: in assert_result\n    db_assert(value, res.json())\ncommons\\assert_util.py:89: in db_assert\n    raise_assert_error(\"databases断言失败: 返回结果中没有:\" + str(key) + \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmsg = 'databases断言失败: 返回结果中没有:username'\n\n    def raise_assert_error(msg):\n        logger.error(msg + \"\")\n        logger.info(\"----------测试用例*异常*结束----------\\n\")\n>       raise AssertionError(msg)\nE       AssertionError: databases断言失败: 返回结果中没有:username\n\ncommons\\assert_util.py:30: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b9e0428d7a2f662",
+      "name" : "log",
+      "source" : "5b9e0428d7a2f662.txt",
+      "type" : "text/plain",
+      "size" : 1352
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：万集接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestALLAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5ALEO36"
+  }, {
+    "name" : "thread",
+    "value" : "14092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "78fd7d0eea2a8169.json",
+  "parameterValues" : [ ]
+}

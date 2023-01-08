@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sat Jan 07 22:32:23 CST 2023","Sat Jan 07 22:32:23 CST 2023","99","testcases","test_all_case","TestALLAPI","","","验证未注册的账号密码登录测试用例",""
-"broken","Sat Jan 07 22:32:23 CST 2023","Sat Jan 07 22:32:23 CST 2023","7","testcases","test_all_case","TestALLAPI","","","测试导入门店列表.xls接口",""
-"passed","Sat Jan 07 22:32:22 CST 2023","Sat Jan 07 22:32:23 CST 2023","323","testcases","test_all_case","TestALLAPI","","","验证登录成功测试用例",""
-"passed","Sat Jan 07 22:32:23 CST 2023","Sat Jan 07 22:32:23 CST 2023","155","testcases","test_all_case","TestALLAPI","","","测试获取所有门店列表接口",""

@@ -4,7 +4,7 @@ import allure
 import pytest
 from pathlib import Path
 import yaml
-
+from hotloads.debug_talk import DebugTalk
 from commons.request_util import RequestUtil
 from commons.ddt_util import read_testcase
 
@@ -32,7 +32,13 @@ def create_testcase(yaml_path):
         allure.dynamic.feature(caseinfo['feature'])
         allure.dynamic.story(caseinfo['story'])
         allure.dynamic.title(caseinfo['title'])
-        RequestUtil().standard_yaml_case(caseinfo, base_url)
+        if isinstance(caseinfo, list):  # 流程用例
+            for case in caseinfo:
+                allure.dynamic.title(case["title"])
+                RequestUtil().standard_yaml_case(case, base_url)
+        else:  # 单接口用例
+            allure.dynamic.title(caseinfo["title"])
+            RequestUtil().standard_yaml_case(caseinfo, base_url)
 
     return test_func
 

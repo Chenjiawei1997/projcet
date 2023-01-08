@@ -59,6 +59,7 @@ class RequestUtil:
                             print(file_key, file_value)
                             value[file_key] = open(file_value, "rb")
 
+
                 # 发送请求
                 res = self.send_all_request(**caseinfo['request'])
                 logger.info("预期结果: %s" % caseinfo["validate"])
@@ -81,7 +82,7 @@ class RequestUtil:
     # 统一封装请求路径
     def send_all_request(self, method, url, **kwargs):
         res = RequestUtil.sess.request(method, url, **kwargs)
-        # print(res.json())
+        print(res.json())
         return res
 
     def extract_yaml_value(self, caseinfo, res):

@@ -1,0 +1,149 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5ALEO36",
+    "children" : [ {
+      "name" : "1784-MainThread",
+      "children" : [ {
+        "name" : "验证输入密码不能为空测试用例",
+        "uid" : "9643a31f88561763",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154517105,
+          "stop" : 1673154517160,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入错误密码正确账号测试用例",
+        "uid" : "a91a3b7e42851464",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154517271,
+          "stop" : 1673154517418,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试获取所有门店列表接口",
+        "uid" : "59d950b801208518",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673154517454,
+          "stop" : 1673154517605,
+          "duration" : 151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入用户名不能为空测试用例",
+        "uid" : "1ee1ccc9564d6914",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154517041,
+          "stop" : 1673154517097,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入错误账号正确密码测试用例",
+        "uid" : "1603ff7c532af5cf",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154517166,
+          "stop" : 1673154517265,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试导入门店列表.xls接口",
+        "uid" : "a16fdf7109dde497",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "broken",
+        "time" : {
+          "start" : 1673154517425,
+          "stop" : 1673154517445,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证未注册的账号密码登录测试用例",
+        "uid" : "496b2d09c87d5fa7",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154516886,
+          "stop" : 1673154516986,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证登录成功测试用例",
+        "uid" : "27eb6f88df4aad8c",
+        "parentUid" : "eaa95f9f63aa582632683b43548a3271",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673154516544,
+          "stop" : 1673154516884,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eaa95f9f63aa582632683b43548a3271"
+    } ],
+    "uid" : "ead420bc58524455f6a517a49e4d24c6"
+  } ]
+}

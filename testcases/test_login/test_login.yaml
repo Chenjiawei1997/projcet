@@ -16,106 +16,15 @@
     code: $.code
   parametrize:
     - [ "title","userName","password","type","codes","equals","contains","databases" ]
-    - [ "验证登录成功测试用例","chenjiawei132785","IKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,200,{ "message": "请求成功" },data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
-    - [ "验证未注册的账号密码登录测试用例","chen132785","IKWB89E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,10005,{ "message": "用户名或者密码不正确[认证异常]" },dsf,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
+    - [ "验证登录成功测试用例","chenjiawei132785","IKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,200,{"message": "请求成功"},data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
+    - [ "验证未注册的账号密码登录测试用例","chen132785","IKWB89E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,10005,{"message":"用户名或者密码不正确[认证异常]"},data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
+    - [ "验证输入用户名不能为空测试用例","","IKWB89E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,10010,{"message":"用户名或密码不能为空"},data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
+    - [ "验证输入密码不能为空测试用例","chenjiawei132785","",0,10010,{"message":"用户名或密码不能为空"},data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
+    - [ "验证输入错误账号正确密码测试用例","chen489498641","IKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,10005,{"message":"用户名或者密码不正确[认证异常]"},data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
+    - [ "验证输入错误密码正确账号测试用例","chenjiawei132785","999BJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,10005,"message":"用户名或者密码不正确[认证异常]",data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
   validate:
     codes: $ddt{codes}
     equals: $ddt{equals}
     contains: $ddt{contains}
     databases: $ddt{databases}
 
-#- name: 使用正确的账号错误密码登录
-#  title: 登录
-#  request:
-#    method: post
-#    url: /micro/ent/login
-#    headers:
-#      content-Type: application/json
-#    json:
-#      userName: chenjiawei132785
-#      password: pKW999J9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-#      type: 0
-#  extract:
-#    access_token: '"access_token":"(.*?)"'
-#    code1: $.code
-#  validate:
-#    codes: 10005
-#    equals: { "message": "用户名或者密码不正确[认证异常]" }
-#    contains: data
-#    databases: { "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" }
-#- name: 使用错误的账号输入正确密码登录
-#  title: 登录
-#  request:
-#    method: post
-#    url: /micro/ent/login
-#    headers:
-#      content-Type: application/json
-#    json:
-#      userName: chenjiawei132785
-#      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-#      type: 0
-#  extract:
-#    access_token: '"access_token":"(.*?)"'
-#    code2: $.code
-#  validate:
-#    codes: 10005
-#    equals: { "message": "用户名或者密码不正确[认证异常]" }
-#    contains: data
-#    databases: { "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" }
-#- name: 未输入账号输入正确密码登录
-#  title: 登录
-#  request:
-#    method: post
-#    url: /micro/ent/login
-#    headers:
-#      content-Type: application/json
-#    json:
-#      userName:
-#      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-#      type: 0
-#  extract:
-#    access_token: '"access_token":"(.*?)"'
-#    code3: $.code
-#  validate:
-#    codes: 10010
-#    equals: { "message": "用户名或密码不能为空" }
-#    contains: data
-#    databases: { "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" }
-#- name: 输入正确账号未输入密码登录
-#  title: 登录
-#  request:
-#    method: post
-#    url: /micro/ent/login
-#    headers:
-#      content-Type: application/json
-#    json:
-#      userName: chenjiawei132785
-#      password:
-#      type: 0
-#  extract:
-#    access_token: '"access_token":"(.*?)"'
-#    code4: $.code
-#  validate:
-#    codes: 10010
-#    equals: { "message": "用户名或密码不能为空" }
-#    contains: data
-#    databases: { "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" }
-#- name: 输入未注册的账号密码登录
-#  title: 登录
-#  request:
-#    method: post
-#    url: /micro/ent/login
-#    headers:
-#      content-Type: application/json
-#    json:
-#      userName: chen87485
-#      password: pKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=
-#      type: 0
-#  extract:
-#    access_token: '"access_token":"(.*?)"'
-#    code5: $.code
-#  validate:
-#    codes: 10005
-#    equals: { "message": "用户名或者密码不正确[认证异常]" }
-#    contains: data
-#    databases: { "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" }

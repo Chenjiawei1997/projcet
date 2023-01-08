@@ -16,7 +16,7 @@ def read_testcase(yaml_path):
         else:  # 通过parametrize标签实现的数据驱动
             if "parametrize" in dict(*caseinfo).keys():
                 new_caseinfo = ddts(*caseinfo)
-                print(new_caseinfo)
+                # print(new_caseinfo)
                 return new_caseinfo
             else:
                 return caseinfo
@@ -42,7 +42,7 @@ def ddts(caseinfo):
             for y in range(0, name_length):  # 列
                 # 解决数字字符串变成了数字类型的问题
                 if isinstance(case_list[x][y], str):
-                    print('"$ddt{'+case_list[0][y]+'}"',case_list[x][y])
+                    # print('"$ddt{' + case_list[0][y] + '}"', case_list[x][y])
                     case_list[x][y] = "'" + str(case_list[x][y]) + "'"
                 raw_caseinfo = raw_caseinfo.replace("$ddt{" + case_list[0][y] + "}", str(case_list[x][y]))
             new_caseinfo.append(yaml.safe_load(StringIO(raw_caseinfo)))

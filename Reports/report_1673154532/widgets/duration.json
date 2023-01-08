@@ -1,0 +1,81 @@
+[ {
+  "uid" : "9a60b77553aab198",
+  "name" : "验证输入用户名不能为空测试用例",
+  "time" : {
+    "start" : 1673154531247,
+    "stop" : 1673154531298,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c01787ba80157b1",
+  "name" : "验证输入错误密码正确账号测试用例",
+  "time" : {
+    "start" : 1673154531466,
+    "stop" : 1673154531896,
+    "duration" : 430
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "104d43dd9d2751a6",
+  "name" : "验证登录成功测试用例",
+  "time" : {
+    "start" : 1673154530802,
+    "stop" : 1673154531090,
+    "duration" : 288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f2e3c135af3cd27",
+  "name" : "测试导入门店列表.xls接口",
+  "time" : {
+    "start" : 1673154531902,
+    "stop" : 1673154531909,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8506e3d006fb05a9",
+  "name" : "验证输入密码不能为空测试用例",
+  "time" : {
+    "start" : 1673154531304,
+    "stop" : 1673154531354,
+    "duration" : 50
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1465c453cfebc412",
+  "name" : "验证输入错误账号正确密码测试用例",
+  "time" : {
+    "start" : 1673154531360,
+    "stop" : 1673154531459,
+    "duration" : 99
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d096cab547714491",
+  "name" : "验证未注册的账号密码登录测试用例",
+  "time" : {
+    "start" : 1673154531092,
+    "stop" : 1673154531199,
+    "duration" : 107
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5d23b230a4e2ac3",
+  "name" : "测试获取所有门店列表接口",
+  "time" : {
+    "start" : 1673154531913,
+    "stop" : 1673154532058,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

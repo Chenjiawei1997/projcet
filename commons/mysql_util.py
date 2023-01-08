@@ -31,5 +31,7 @@ def execute_sql(sql):
 if __name__ == '__main__':
     # print(execute_sql("select password from pw_user where username='pytest'"))
     # (('pytest', '0'),)
-    print(execute_sql("select user_name,phone,id from sys_user where user_name = 'chenjiawei132785'"))
+    # print(execute_sql())
+    # print(execute_sql("select user_name,phone,id from sys_user where user_name = 'chenjiawei132785'"))
+    print(execute_sql("select name from tb_store where name = '接口新增门店名称1'"))
 

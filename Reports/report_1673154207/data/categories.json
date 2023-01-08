@@ -1,0 +1,123 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "children" : [ {
+        "name" : "验证未注册的账号密码登录测试用例",
+        "uid" : "6701d046f5337b85",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154206410,
+          "stop" : 1673154206517,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入用户名不能为空测试用例",
+        "uid" : "78fd7d0eea2a8169",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154206567,
+          "stop" : 1673154206622,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入密码不能为空测试用例",
+        "uid" : "db9347d97f9afca6",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154206628,
+          "stop" : 1673154206682,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入错误账号正确密码测试用例",
+        "uid" : "1e4224ef718f46a0",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154206688,
+          "stop" : 1673154206783,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入错误密码正确账号测试用例",
+        "uid" : "7b390333e7da9467",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673154206790,
+          "stop" : 1673154206925,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87bc52e16b26771cef28c75b7b3eaaf8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: '导入门店模板 (4).xlsx'",
+      "children" : [ {
+        "name" : "测试导入门店列表.xls接口",
+        "uid" : "ff4d9d0dfdcfc58b",
+        "parentUid" : "98e13d0cd92238be4f748fde24b22e95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1673154206932,
+          "stop" : 1673154206939,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98e13d0cd92238be4f748fde24b22e95"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
