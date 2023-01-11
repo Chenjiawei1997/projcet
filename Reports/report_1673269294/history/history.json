@@ -1,0 +1,273 @@
+{
+  "7008a1d41f5dabd091e9707a21490a34" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bc6a7d537372163",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673269292287,
+        "stop" : 1673269292392,
+        "duration" : 105
+      }
+    } ]
+  },
+  "3d0ec5030d76826f0a78913915339676" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "704df1faa2559b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269293610,
+        "stop" : 1673269293687,
+        "duration" : 77
+      }
+    } ]
+  },
+  "40610b17f5a451b503ac72ab72947611" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60ff529edb536314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269293688,
+        "stop" : 1673269293822,
+        "duration" : 134
+      }
+    } ]
+  },
+  "c7984b4801add1235a94af41e12e2e23" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca89425039db3d3e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673269292556,
+        "stop" : 1673269292650,
+        "duration" : 94
+      }
+    } ]
+  },
+  "5581961b01782cdb476df8373c96ae43" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acf337bf091022dd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673269292433,
+        "stop" : 1673269292487,
+        "duration" : 54
+      }
+    } ]
+  },
+  "a3cc8383aa925684c8551d3ee98b3f6e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72a17e0413b6da6f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673269292656,
+        "stop" : 1673269292796,
+        "duration" : 140
+      }
+    } ]
+  },
+  "06be25e26e624177ea7fb31157e80a2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffc67813277423b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269293416,
+        "stop" : 1673269293521,
+        "duration" : 105
+      }
+    } ]
+  },
+  "e99cb20cd92e405f25d0468980db57e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0a48b10c7c2598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269292808,
+        "stop" : 1673269293305,
+        "duration" : 497
+      }
+    } ]
+  },
+  "ff93cb5e5a9be6be271fb1efc194630f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b640dd4f61a1f36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269291978,
+        "stop" : 1673269292285,
+        "duration" : 307
+      }
+    } ]
+  },
+  "8ab99269c850da1e83a8e09e1ce3690b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bcc220dd7afa0e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269293523,
+        "stop" : 1673269293608,
+        "duration" : 85
+      }
+    } ]
+  },
+  "b3b4c888bb9f072d98581af138162f44" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93cf88daf3f20773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269293960,
+        "stop" : 1673269294044,
+        "duration" : 84
+      }
+    } ]
+  },
+  "5f86f1ee1e626d36a249cef360e41d57" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34d49a7d3f9b8922",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673269292494,
+        "stop" : 1673269292549,
+        "duration" : 55
+      }
+    } ]
+  },
+  "79fcc3e9f3cdfaee06f3b05030a51593" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6179ab3d6df03d7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269293824,
+        "stop" : 1673269293956,
+        "duration" : 132
+      }
+    } ]
+  },
+  "d80421518bb246631b04a5c89a4b9e7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a670dcbfd8aaaffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673269293307,
+        "stop" : 1673269293413,
+        "duration" : 106
+      }
+    } ]
+  }
+}

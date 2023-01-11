@@ -1,0 +1,130 @@
+{
+  "uid" : "bcc220dd7afa0e7e",
+  "name" : "查询新增门店",
+  "fullName" : "testcases.test_all_case.TestALLAPI#test_test_inquire_new_store",
+  "historyId" : "8ab99269c850da1e83a8e09e1ce3690b",
+  "time" : {
+    "start" : 1673269293523,
+    "stop" : 1673269293608,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract_yaml",
+    "time" : {
+      "start" : 1673269291977,
+      "stop" : 1673269291977,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1673269291977,
+      "stop" : 1673269291977,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1673269291977,
+      "stop" : 1673269291977,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f99cffc23ba1336",
+      "name" : "log",
+      "source" : "8f99cffc23ba1336.txt",
+      "type" : "text/plain",
+      "size" : 3808
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "店铺模块"
+  }, {
+    "name" : "story",
+    "value" : "查询新增门店列表接口"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：万集接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestALLAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5ALEO36"
+  }, {
+    "name" : "thread",
+    "value" : "4092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcc220dd7afa0e7e.json",
+  "parameterValues" : [ ]
+}

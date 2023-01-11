@@ -1,0 +1,21 @@
+- feature: 店铺模块
+  story: 关于我们
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/ent/aboutUs/addOrUpdate
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+    json:
+      contentTitle: $ddt{contentTitle}
+      content: $ddt{content}
+      type: 0
+      id: null
+  parametrize:
+    - ["title","contentTitle","content","codes","equals"]
+    - ["新增关于我们",增加项姐,<p>撒大声地阿萨德</p>,200,{"message":"请求成功"}]
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

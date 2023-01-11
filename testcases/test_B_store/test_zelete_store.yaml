@@ -1,0 +1,26 @@
+# encoding: utf-8
+# Author: 陈家伟
+- feature: 店铺模块
+  story: 删除门店
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/ent/storeManagement/process
+    headers:
+      content-Type: application/x-www-form-urlencoded
+      Authorization: Bearer ${read_yaml(access_token)}
+    data:
+      pageSize: 10
+      ids: 6722
+      operateStatus: 2
+      selectAllFlag: 2
+  parametrize:
+    - ["title","operateStatus","codes","equals"]
+    - ["删除门店接口",1,200,{"message":"请求成功"}]
+
+  extract:
+    code: $.code
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

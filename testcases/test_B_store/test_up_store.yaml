@@ -1,0 +1,23 @@
+- feature: 店铺模块
+  story: 上下架门店接口
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/ent/storeManagement/process
+    headers:
+      content-Type: application/x-www-form-urlencoded
+      Authorization: Bearer ${read_yaml(access_token)}
+    data:
+      ids: 6712
+      operateStatus: $ddt{operateStatus}
+      selectAllFlag: 2
+  parametrize:
+    - ["title","operateStatus","codes","equals"]
+    - ["上架门店",1,200,{"message":"请求成功"}]
+    - ["下架门店",0,200,{"message":"请求成功"}]
+  extract:
+    code: $.code
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

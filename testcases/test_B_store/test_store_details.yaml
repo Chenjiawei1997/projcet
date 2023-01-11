@@ -1,0 +1,20 @@
+- feature: 店铺模块
+  story: 查看门店接口
+  title: $ddt{title}
+  request:
+    method: get
+    url: /micro/ent/storeManagement/detail?id=6712
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+    params:
+      id: $ddt{id}
+  parametrize:
+    - ["title","id","codes","equals"]
+    - ["查看门店详情接口",6712,200,{"message":"请求成功"}]
+  extract:
+    code: $.code
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

@@ -1,0 +1,141 @@
+[ {
+  "uid" : "60ff529edb536314",
+  "name" : "上架门店",
+  "time" : {
+    "start" : 1673269293688,
+    "stop" : 1673269293822,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffc67813277423b2",
+  "name" : "新增重复门店账号",
+  "time" : {
+    "start" : 1673269293416,
+    "stop" : 1673269293521,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34d49a7d3f9b8922",
+  "name" : "验证输入密码不能为空测试用例",
+  "time" : {
+    "start" : 1673269292494,
+    "stop" : 1673269292549,
+    "duration" : 55
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "93cf88daf3f20773",
+  "name" : "删除门店接口",
+  "time" : {
+    "start" : 1673269293960,
+    "stop" : 1673269294044,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "704df1faa2559b8",
+  "name" : "查看门店详情接口",
+  "time" : {
+    "start" : 1673269293610,
+    "stop" : 1673269293687,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca89425039db3d3e",
+  "name" : "验证输入错误账号正确密码测试用例",
+  "time" : {
+    "start" : 1673269292556,
+    "stop" : 1673269292650,
+    "duration" : 94
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6179ab3d6df03d7b",
+  "name" : "下架门店",
+  "time" : {
+    "start" : 1673269293824,
+    "stop" : 1673269293956,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bc6a7d537372163",
+  "name" : "验证未注册的账号密码登录测试用例",
+  "time" : {
+    "start" : 1673269292287,
+    "stop" : 1673269292392,
+    "duration" : 105
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a670dcbfd8aaaffc",
+  "name" : "新增重复门店名称",
+  "time" : {
+    "start" : 1673269293307,
+    "stop" : 1673269293413,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b640dd4f61a1f36",
+  "name" : "验证登录成功测试用例",
+  "time" : {
+    "start" : 1673269291978,
+    "stop" : 1673269292285,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0a48b10c7c2598",
+  "name" : "新增门店",
+  "time" : {
+    "start" : 1673269292808,
+    "stop" : 1673269293305,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72a17e0413b6da6f",
+  "name" : "验证输入错误密码正确账号测试用例",
+  "time" : {
+    "start" : 1673269292656,
+    "stop" : 1673269292796,
+    "duration" : 140
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "acf337bf091022dd",
+  "name" : "验证输入用户名不能为空测试用例",
+  "time" : {
+    "start" : 1673269292433,
+    "stop" : 1673269292487,
+    "duration" : 54
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcc220dd7afa0e7e",
+  "name" : "查询新增门店",
+  "time" : {
+    "start" : 1673269293523,
+    "stop" : 1673269293608,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

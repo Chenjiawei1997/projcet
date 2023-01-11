@@ -1,0 +1,138 @@
+{
+  "uid" : "49aa66d3faeb6424",
+  "name" : "下架门店",
+  "fullName" : "testcases.test_all_case.TestALLAPI#test_test_up_store",
+  "historyId" : "79fcc3e9f3cdfaee06f3b05030a51593",
+  "time" : {
+    "start" : 1673262690243,
+    "stop" : 1673262690309,
+    "duration" : 66
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001",
+  "statusTrace" : "self = <testcases.test_all_case.TestALLAPI object at 0x000001954E8DF9D0>\ncaseinfo = {'extract': {'code': '$.code'}, 'feature': '店铺模块', 'parametrize': [['title', 'operateStatus'], ['上架门店', 0], ['下架门店', 1...cess_token)}', 'content-Type': 'multipart/form-data'}, 'method': 'post', 'url': '/micro/ent/storeManagement/add'}, ...}\nbase_url = 'http://wanjidev.wandianzhang.com'\n\n    @pytest.mark.parametrize(\"caseinfo\", read_testcase(yaml_path))\n    # @pytest.mark.run(order=1)\n    def test_func(self, caseinfo, base_url):\n        allure.dynamic.feature(caseinfo['feature'])\n        allure.dynamic.story(caseinfo['story'])\n        allure.dynamic.title(caseinfo['title'])\n        if isinstance(caseinfo, list):  # 流程用例\n            for case in caseinfo:\n                allure.dynamic.title(case[\"title\"])\n                RequestUtil().standard_yaml_case(case, base_url)\n        else:  # 单接口用例\n            allure.dynamic.title(caseinfo[\"title\"])\n>           RequestUtil().standard_yaml_case(caseinfo, base_url)\n\ntestcases\\test_all_case.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommons\\request_util.py:71: in standard_yaml_case\n    assert_result(caseinfo['validate'], res)\ncommons\\assert_util.py:13: in assert_result\n    codes_assert(value, res.json()['code'])\ncommons\\assert_util.py:36: in codes_assert\n    raise_assert_error(\"codes状态码断言失败, 预期结果: \" + str(yq_code) + \",实际结果: \" + str(sj_code) + \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmsg = 'codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001'\n\n    def raise_assert_error(msg):\n        logger.error(msg + \"\")\n        logger.info(\"----------测试用例*异常*结束----------\\n\")\n>       raise AssertionError(msg)\nE       AssertionError: codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001\n\ncommons\\assert_util.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1673262688803,
+      "stop" : 1673262688803,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_extract_yaml",
+    "time" : {
+      "start" : 1673262688803,
+      "stop" : 1673262688803,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1673262688803,
+      "stop" : 1673262688803,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001",
+    "statusTrace" : "self = <testcases.test_all_case.TestALLAPI object at 0x000001954E8DF9D0>\ncaseinfo = {'extract': {'code': '$.code'}, 'feature': '店铺模块', 'parametrize': [['title', 'operateStatus'], ['上架门店', 0], ['下架门店', 1...cess_token)}', 'content-Type': 'multipart/form-data'}, 'method': 'post', 'url': '/micro/ent/storeManagement/add'}, ...}\nbase_url = 'http://wanjidev.wandianzhang.com'\n\n    @pytest.mark.parametrize(\"caseinfo\", read_testcase(yaml_path))\n    # @pytest.mark.run(order=1)\n    def test_func(self, caseinfo, base_url):\n        allure.dynamic.feature(caseinfo['feature'])\n        allure.dynamic.story(caseinfo['story'])\n        allure.dynamic.title(caseinfo['title'])\n        if isinstance(caseinfo, list):  # 流程用例\n            for case in caseinfo:\n                allure.dynamic.title(case[\"title\"])\n                RequestUtil().standard_yaml_case(case, base_url)\n        else:  # 单接口用例\n            allure.dynamic.title(caseinfo[\"title\"])\n>           RequestUtil().standard_yaml_case(caseinfo, base_url)\n\ntestcases\\test_all_case.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommons\\request_util.py:71: in standard_yaml_case\n    assert_result(caseinfo['validate'], res)\ncommons\\assert_util.py:13: in assert_result\n    codes_assert(value, res.json()['code'])\ncommons\\assert_util.py:36: in codes_assert\n    raise_assert_error(\"codes状态码断言失败, 预期结果: \" + str(yq_code) + \",实际结果: \" + str(sj_code) + \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmsg = 'codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001'\n\n    def raise_assert_error(msg):\n        logger.error(msg + \"\")\n        logger.info(\"----------测试用例*异常*结束----------\\n\")\n>       raise AssertionError(msg)\nE       AssertionError: codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001\n\ncommons\\assert_util.py:30: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "efce7680a261dc0c",
+      "name" : "log",
+      "source" : "efce7680a261dc0c.txt",
+      "type" : "text/plain",
+      "size" : 3691
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "店铺模块"
+  }, {
+    "name" : "story",
+    "value" : "上下架门店接口"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：万集接口自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestALLAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5ALEO36"
+  }, {
+    "name" : "thread",
+    "value" : "13388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "49aa66d3faeb6424.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,25 @@
+- feature: 店铺模块
+  story: 关于我们
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/ent/aboutUs/processAboutUs
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+      Accept-Encoding: gzip, deflate
+      Accept-Language: zh-CN,zh;q=0.9
+      Connection: keep-alive
+      Host: wanjidev.wandianzhang.com
+      Referer: http://wanjidev.wandianzhang.com/storeManage/aboutUs
+    json:
+      processType: 2
+      id: $ddt{id}
+  parametrize:
+    - ["title","id", "codes","equals"]
+    - ["删除添加的关于我们",240,200,{"message": "请求成功"}]
+    - ["删除查不到的数据关于我们",240,20003,{'message': '查不到数据'}]
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

@@ -1,0 +1,22 @@
+- feature: 店铺模块
+  story: 查询新增门店列表接口
+  title: 查询新增门店
+  request:
+    method: get
+    url: /micro/ent/storeManagement/list?keyword=&province=&city=&area=&status=&storeType=&sortKey=&sortLifting=&pageSize=10&pageNumber=1
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+    params:
+      pageSize: 10
+      pageNumber: 1
+      keyword: $ddt{keyword}
+  parametrize:
+    - ["keyword"]
+    - ["新增门店名称2"]
+  extract:
+    storeId: '"id":"(.*?)"'
+  validate:
+    codes: 200
+    equals: { "message": "请求成功" }
+    contains: data

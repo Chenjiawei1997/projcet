@@ -1,0 +1,24 @@
+- feature: 店铺模块
+  story: 关于我们
+  title: $ddt{title}
+  request:
+    method: get
+    url: /micro/ent/aboutUs/detail?id=211
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+      Accept-Encoding: gzip, deflate
+      Accept-Language: zh-CN,zh;q=0.9
+      Connection: keep-alive
+      Cookie: acw_tc=781bad2316732739568932971e70c185dd42a9d7eb6d709d3a907a2d352d66
+      Host: wanjidev.wandianzhang.com
+      Referer: http://wanjidev.wandianzhang.com/storeManage/aboutUsDetail?id=211
+    params:
+      id: 211
+  parametrize:
+    - ["title","processType","codes","equals"]
+    - ["查看详情关于我们",0,200,{"message": "请求成功"}]
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

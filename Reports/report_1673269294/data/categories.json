@@ -1,0 +1,98 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "children" : [ {
+        "name" : "验证未注册的账号密码登录测试用例",
+        "uid" : "7bc6a7d537372163",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673269292287,
+          "stop" : 1673269292392,
+          "duration" : 105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入用户名不能为空测试用例",
+        "uid" : "acf337bf091022dd",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673269292433,
+          "stop" : 1673269292487,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入密码不能为空测试用例",
+        "uid" : "34d49a7d3f9b8922",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673269292494,
+          "stop" : 1673269292549,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入错误账号正确密码测试用例",
+        "uid" : "ca89425039db3d3e",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673269292556,
+          "stop" : 1673269292650,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证输入错误密码正确账号测试用例",
+        "uid" : "72a17e0413b6da6f",
+        "parentUid" : "87bc52e16b26771cef28c75b7b3eaaf8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673269292656,
+          "stop" : 1673269292796,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87bc52e16b26771cef28c75b7b3eaaf8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

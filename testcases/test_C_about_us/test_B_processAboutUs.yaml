@@ -1,0 +1,20 @@
+- feature: 店铺模块
+  story: 关于我们
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/ent/aboutUs/processAboutUs
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+    json:
+      processType: $ddt{processType}
+      id: 200
+  parametrize:
+    - ["title","processType","codes","equals"]
+    - ["下架关于我们",0,200,{"message": "请求成功"}]
+    - ["上架关于我们",1,200,{"message": "请求成功"}]
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

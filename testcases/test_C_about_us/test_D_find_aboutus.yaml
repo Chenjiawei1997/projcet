@@ -1,0 +1,26 @@
+- feature: 店铺模块
+  story: 关于我们
+  title: $ddt{title}
+  request:
+    method: get
+    url: /micro/ent/aboutUs/listBEnd?contentTitle=%E5%A2%9E%E5%8A%A0%E9%A1%B9%E5%A7%90&createPerson=&contentType=
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+#      Accept-Encoding: gzip, deflate
+#      Accept-Language: zh-CN,zh;q=0.9
+#      Connection: keep-alive
+#      Host: wanjidev.wandianzhang.com
+#      Referer: http://wanjidev.wandianzhang.com/storeManage/aboutUs
+    json:
+      contentTitle: 增加项姐
+  extract:
+    id : '"id":"(.*?)"'
+    id1: $.data.id
+  parametrize:
+    - ["title","codes","equals"]
+    - ["查询添加的关于我们",200,{"message": "请求成功"}]
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}

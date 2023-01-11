@@ -10,7 +10,7 @@ from commons.ddt_util import read_testcase
 
 # 无论你在哪里执行，他都是获得当前文件的绝对路径
 current_path = Path(__file__).parent
-# # 找到当前所有路径下的yaml文件
+# 找到当前所有路径下的yaml文件
 yaml_case_list = current_path.glob("**/*.yaml")
 
 

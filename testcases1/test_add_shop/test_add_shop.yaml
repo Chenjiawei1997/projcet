@@ -1,0 +1,46 @@
+- feature: 商品模块
+  story: 添加商品接口
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/goods/enterpriseGoods/addEnterpriseGoods
+    headers:
+      Content-Type: application/json;charset=UTF-8
+      Authorization: Bearer ${read_yaml(access_token)}
+      Cookie: acw_tc=707c9fc616734472993905925e3d3b1f3fdd0422d6f8ab0e45e9f540288c4e
+    json:
+      goodsType: 0
+      name: 接口添加商品1
+      goodsNo: asd456
+      img: https://ovopark.oss-cn-hangzhou.aliyuncs.com/wanji/2023-01-11/16734476871622236
+      carousels: img:https://ovopark.oss-cn-hangzhou.aliyuncs.com/wanji/2023-01-11/16734476871622236
+      goodsDetails:
+      categoryId: 3378
+      categoryName: 套餐搭配
+      allocateMode: 1
+      enterpriseGoodsPrescriptionId: null
+      isDelivery: 0
+      deliveryPrice: 0
+      price: 1.00
+      specs: {specList:[]}
+      skus: {skuList:[]}
+      isSku: false
+      dateType: 0
+      isGrounding: true
+      isLimitPurchases: false
+      limitPurchasesType: 1
+      limitPurchasesCycle: 1
+      refundConfigure: 1
+
+  extract:
+    access_token: 'access_token:(.*?)'
+    code: $.code
+  parametrize:
+    - [ ]
+    - [ ]
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+#    contains: $ddt{contains}
+#    databases: $ddt{databases}
+

@@ -1,0 +1,238 @@
+{
+  "e99cb20cd92e405f25d0468980db57e2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22598dec4f31d4d2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: codes状态码断言失败, 预期结果: 200,实际结果: 20003",
+      "time" : {
+        "start" : 1673262689708,
+        "stop" : 1673262689825,
+        "duration" : 117
+      }
+    } ]
+  },
+  "ff93cb5e5a9be6be271fb1efc194630f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c20121b961fb234f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262688808,
+        "stop" : 1673262689178,
+        "duration" : 370
+      }
+    } ]
+  },
+  "58eb48a7cc99584d39c534374242ebd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad1c41f6049dac2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262690024,
+        "stop" : 1673262690172,
+        "duration" : 148
+      }
+    } ]
+  },
+  "7008a1d41f5dabd091e9707a21490a34" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bc76e4223c9b3b0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673262689181,
+        "stop" : 1673262689278,
+        "duration" : 97
+      }
+    } ]
+  },
+  "8ab99269c850da1e83a8e09e1ce3690b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d82f5837b1e78b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262689937,
+        "stop" : 1673262690022,
+        "duration" : 85
+      }
+    } ]
+  },
+  "40610b17f5a451b503ac72ab72947611" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34226b2944aeec67",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001",
+      "time" : {
+        "start" : 1673262690174,
+        "stop" : 1673262690237,
+        "duration" : 63
+      }
+    } ]
+  },
+  "c7984b4801add1235a94af41e12e2e23" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15b755449666ad5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673262689469,
+        "stop" : 1673262689561,
+        "duration" : 92
+      }
+    } ]
+  },
+  "5581961b01782cdb476df8373c96ae43" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5276395b14821fc6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673262689355,
+        "stop" : 1673262689407,
+        "duration" : 52
+      }
+    } ]
+  },
+  "a3cc8383aa925684c8551d3ee98b3f6e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbb2c27da1aed883",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673262689568,
+        "stop" : 1673262689702,
+        "duration" : 134
+      }
+    } ]
+  },
+  "5f86f1ee1e626d36a249cef360e41d57" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "743371911503bb8d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: databases断言失败: 返回结果中没有:username",
+      "time" : {
+        "start" : 1673262689413,
+        "stop" : 1673262689462,
+        "duration" : 49
+      }
+    } ]
+  },
+  "79fcc3e9f3cdfaee06f3b05030a51593" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49aa66d3faeb6424",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: codes状态码断言失败, 预期结果: $ddt{codes},实际结果: 20001",
+      "time" : {
+        "start" : 1673262690243,
+        "stop" : 1673262690309,
+        "duration" : 66
+      }
+    } ]
+  },
+  "d80421518bb246631b04a5c89a4b9e7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "546120ca29f110af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262689831,
+        "stop" : 1673262689935,
+        "duration" : 104
+      }
+    } ]
+  }
+}

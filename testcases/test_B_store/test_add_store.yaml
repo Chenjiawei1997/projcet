@@ -1,0 +1,46 @@
+- feature: 店铺模块
+  story: 新增门店接口
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/ent/storeManagement/add
+    headers:
+      content-Type: application/json
+      Authorization: Bearer ${read_yaml(access_token)}
+    json:
+       storeType: 0
+       storeName: $ddt{storeName}
+       superManagedAccount: $ddt{superManagedAccount}
+       storeNo: $ddt{storeNo}
+       status: 0
+       contactPerson: 陈家伟
+       phone: 18131336362
+       province: 110000
+       city: 110100
+       area: 110101
+       addressDetail: 阿斯达所大所
+       freightRadio: null
+       shippingId: 469
+       img: null
+       imgOneToOne: null
+       storeImgs: []
+       storeImg: null
+       openTime: null
+       closeTime: null
+       announcement: null
+       longitude: 120.538761
+       latitude: 31.275599
+  parametrize:
+    - ["title","storeName","superManagedAccount","storeNo","codes","equals","contains"]
+    - ["新增门店","新增门店名称3","abcdef2","qwertyu2",200,{"message":"请求成功"},data]
+    - ["新增重复门店名称","新增门店名称1","asdd4545","asd484sad4",20003,{"message":"门店名称已存在, 请重新添加"},data]
+    - ["新增重复门店账号","新增门店名称1","asdd4545","asd484sad4",20003,{"message":"门店名称已存在, 请重新添加"},data]
+  extract:
+    storeName: $.storeName
+    code: $.code
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+    contains: $ddt{contains}
+
+

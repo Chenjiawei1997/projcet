@@ -1,0 +1,213 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.test_all_case",
+    "children" : [ {
+      "name" : "验证登录成功测试用例",
+      "uid" : "c20121b961fb234f",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262688808,
+        "stop" : 1673262689178,
+        "duration" : 370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "验证未注册的账号密码登录测试用例",
+      "uid" : "3bc76e4223c9b3b0",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262689181,
+        "stop" : 1673262689278,
+        "duration" : 97
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "验证输入用户名不能为空测试用例",
+      "uid" : "5276395b14821fc6",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262689355,
+        "stop" : 1673262689407,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "验证输入密码不能为空测试用例",
+      "uid" : "743371911503bb8d",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262689413,
+        "stop" : 1673262689462,
+        "duration" : 49
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "验证输入错误账号正确密码测试用例",
+      "uid" : "15b755449666ad5",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262689469,
+        "stop" : 1673262689561,
+        "duration" : 92
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "验证输入错误密码正确账号测试用例",
+      "uid" : "bbb2c27da1aed883",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262689568,
+        "stop" : 1673262689702,
+        "duration" : 134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "新增门店",
+      "uid" : "22598dec4f31d4d2",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262689708,
+        "stop" : 1673262689825,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "新增重复门店",
+      "uid" : "546120ca29f110af",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262689831,
+        "stop" : 1673262689935,
+        "duration" : 104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "查询新增门店",
+      "uid" : "9d82f5837b1e78b3",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262689937,
+        "stop" : 1673262690022,
+        "duration" : 85
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试获取所有门店列表接口",
+      "uid" : "ad1c41f6049dac2e",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673262690024,
+        "stop" : 1673262690172,
+        "duration" : 148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "上架门店",
+      "uid" : "34226b2944aeec67",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262690174,
+        "stop" : 1673262690237,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "下架门店",
+      "uid" : "49aa66d3faeb6424",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1673262690243,
+        "stop" : 1673262690309,
+        "duration" : 66
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.test_all_case"
+  } ]
+}

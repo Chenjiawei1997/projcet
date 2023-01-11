@@ -1,0 +1,26 @@
+- feature: 登录模块
+  story: 登录接口
+  title: $ddt{title}
+  request:
+    method: post
+    url: /micro/ent/login
+    headers:
+      content-Type: application/json
+    json:
+      userName: $ddt{userName}
+      password: $ddt{password}
+      type: $ddt{type}
+  extract:
+    access_token: '"access_token":"(.*?)"'
+    cookie: '"Cookie":"(.*?)"'
+    username: $.data.userInfo.username
+    code: $.code
+  parametrize:
+    - [ "title","userName","password","type","codes","equals","contains","databases" ]
+    - [ "验证登录成功测试用例","chenjiawei132785","IKWBJ9E8lSVy1Um85PQK+OrwdY6QrfS3+LosgaygBY54xfzWp8kjvRfWgbr5sGQp7V8OQVpdhz3Xk7+clIuS0zm6kz3msgFHewhj8fNcCy0/S8rc0w1xG3mORt9bQxtlf1N3V9SRQriaD6fUnGIqK7IST13RbyHrBoI9I62o/Uc=",0,200,{"message": "请求成功"},data,{ "username": "select user_name from sys_user where user_name = 'chenjiawei132785'" } ]
+  validate:
+    codes: $ddt{codes}
+    equals: $ddt{equals}
+    contains: $ddt{contains}
+    databases: $ddt{databases}
+

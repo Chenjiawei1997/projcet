@@ -83,6 +83,8 @@ class RequestUtil:
     def send_all_request(self, method, url, **kwargs):
         res = RequestUtil.sess.request(method, url, **kwargs)
         print(res.json())
+        # print(res.cookies)
+        # print(type(res.cookies))
         return res
 
     def extract_yaml_value(self, caseinfo, res):
