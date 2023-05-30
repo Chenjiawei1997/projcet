@@ -1,3 +1,5 @@
+# encoding: utf-8
+# Author: 陈家伟
 import json
 import logging
 from io import StringIO
